@@ -1,0 +1,30 @@
+{
+  "header": {
+    "nav": {
+      "items": {
+        "home": "Ana Sayfa",
+        "work": {
+          "label": "İşler",
+          "projects": "Projeler",
+          "experiments": "Deneyler"
+        },
+        "me": {
+          "label": "Ben",
+          "story": "Hikaye",
+          "stack": "Teknoloji Yığını",
+          "behindthescenes": "Sahne Arkası"
+        },
+        "lab": {
+          "label": "Laboratuvar",
+          "opensource": "Açık Kaynak",
+          "devlogs": "Geliştirici Günlükleri"
+        },
+        "resources": "Kaynaklar",
+        "contact": "İletişim"
+      }
+    }
+  },
+  "footer": {
+    
+  }
+}

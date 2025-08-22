@@ -1,0 +1,79 @@
+{
+  "home": {
+    "title": "",
+    "description": "vorlaxen ana sayfası",
+    "hero": {
+      "title": "Hakan <1>Kaygusuz</1>",
+      "subtitle": "Ölçeklenebilir ve verimli uygulamalar geliştirmede uzmanlaşmış tutkulu bir <1>Yazılım Geliştirici</1>. Karmaşık problemler için sağlam çözümler üretiyorum.",
+      "cta": "Daha Fazla Bilgi",
+      "taglines": [
+        "Backend Çözümleri Üreten <1>Web Geliştirici</1>",
+        "API’ler Tasarlayan Fullstack Geliştirici",
+        "Ölçeklenebilir Sistemler Kuran <1>Yazılım Mühendisi</1>"
+      ]
+    }
+  },
+  "about": {
+    "title": "Hakkımda",
+    "subtitle": "Dünyanın sana bağımlıymış gibi kod yazan, kahve kokulu, kaotik bir lise öğrencisinin maceralarına dalın… çünkü bazen gerçekten öyle oluyor.",
+    "badge": {
+      "title": "Ben Kimim",
+      "subtitle": "Kod ve hayatı parçalayarak çözen bitmek bilmeyen bir problem çözücü. Yaratmak, optimize etmek ve etrafımdaki kaosu anlamlandırmak benim işim.",
+      "tabnames": {
+        "education": "Eğitim",
+        "experience": "Deneyim"
+      },
+      "tabs": {
+        "education": [
+          {
+            "title": "Kendi Kendine Öğrenen Geliştirici",
+            "subtitle": "2017 - Günümüz",
+            "description": "Küçük yaşta kodlamaya başladım, dilleri ve frameworkleri tersine mühendislik ve uygulamalı deneyimle çözerek öğrendim.",
+            "badges": ["Python", "C#", "JavaScript", "Node.js"]
+          },
+          {
+            "title": "Masaüstü & IoT Kaşifi",
+            "subtitle": "Gerçek Dünya Uygulamaları & Akıllı Cihazlar",
+            "description": "Masaüstü ve IoT geliştirmeye daldım, gerçek hayat sorunları için işlevsel ve şık çözümler sundum.",
+            "badges": [
+              "Minecraft Launcher",
+              "Akıllı Ev Sistemi",
+              "Arduino",
+              "ESP8266"
+            ]
+          },
+          {
+            "title": "Frontend & UI/UX Tasarımcısı",
+            "subtitle": "React & Modern UI Kütüphaneleri",
+            "description": "Hem estetik hem kullanılabilirliği ön planda tutarak, duyarlı ve sezgisel arayüzler tasarlıyorum.",
+            "badges": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"]
+          }
+        ],
+        "experience": [
+          {
+            "title": "Vidzap",
+            "subtitle": "Full-Stack & CLI Yeniliği",
+            "description": "Otomatik format seçimi, gerçek zamanlı Socket.IO durum güncellemeleri ve sorunsuz FFmpeg işleme özellikleri olan ileri düzey bir video indirme aracı geliştirdim.",
+            "badges": ["Node.js", "Express", "FFmpeg", "Socket.IO"]
+          },
+          {
+            "title": "Gelişmiş Kimlik Doğrulama Sistemi",
+            "subtitle": "Güvenli Backend Mimarisi",
+            "description": "Modüler, JWT tabanlı bir kimlik doğrulama sistemi inşa ettim; çoklu cihaz oturum takibi, Redis entegrasyonu ve tam token yaşam döngüsü yönetimi içeriyor.",
+            "badges": ["JWT", "Redis", "BullMQ", "Güvenlik"]
+          }
+        ]
+      }
+    }
+  },
+  "resources": {
+    "books": {
+      "title": "Kitaplar",
+      "mfr": "En Sevdiğim Kitaplar"
+    }
+  },
+  "test": {
+    "title": "Test",
+    "description": "vorlaxen test sayfası"
+  }
+}

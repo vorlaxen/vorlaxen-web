@@ -1,0 +1,30 @@
+{
+  "header": {
+    "nav": {
+      "items": {
+        "home": "Home",
+        "work": {
+          "label": "Work",
+          "projects": "Projects",
+          "experiments": "Experiments"
+        },
+        "me": {
+          "label": "Me",
+          "story": "Story",
+          "stack": "Stack",
+          "behindthescenes": "Behind the Scenes"
+        },
+        "lab": {
+          "label": "Lab",
+          "opensource": "Open Source",
+          "devlogs": "Dev Logs"
+        },
+        "resources": "Resources",
+        "contact": "Contact"
+      }
+    }
+  },
+  "footer": {
+    
+  }
+}

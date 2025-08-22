@@ -1,0 +1,82 @@
+@use "fonts" as *;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-color: theme("colors.neutral.200");
+    @apply dark:border-neutral-700;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    transition: background-color 0.2s ease, color 0.2s ease;
+    transform: translateZ(0);
+
+    @apply text-black dark:text-white bg-white dark:bg-black;
+
+    &::selection {
+      @apply bg-sky-600 dark:bg-sky-700 text-white;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: calc(var(--spacing-base) / 2);
+  line-height: 1.2;
+  scroll-margin-top: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: var(--spacing-base);
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  @apply cursor-pointer select-none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  transition: all 0.5ms ease-in-out;
+  @apply bg-neutral-300 dark:bg-neutral-900;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-neutral-500 dark:bg-neutral-800;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-white dark:bg-black;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}

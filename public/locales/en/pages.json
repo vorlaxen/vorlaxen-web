@@ -1,0 +1,74 @@
+{
+  "home": {
+    "title": "",
+    "description": "vorlaxen main page",
+    "hero": {
+      "title": "Hakan <1>Kaygusuz</1>",
+      "subtitle": "A passionate <1>Software Developer</1> specializing in building scalable and efficient applications. With I create robust solutions for complex problems.",
+      "cta": "More Info",
+      "taglines": [
+        "Web Developer Creating <1>Backend Solutions</1>",
+        "Fullstack Developer Crafting <1>APIs</1>",
+        "Software Engineer Building <1>Scalable Systems</1>"
+      ]
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Dive into the chaotic, caffeine-fueled adventures of a high schooler who codes like the world depends on it… because sometimes it kinda does.",
+    "badge": {
+      "title": "Who I Am",
+      "subtitle": "A relentless problem solver, always dissecting code and life alike. I thrive on creating, optimizing, and making sense of the chaos around me.",
+      "tabnames": {
+        "education": "Education", 
+        "experience": "Experience"
+      },
+      "tabs": {
+        "education": [
+          {
+            "title": "Self-Taught Developer",
+            "subtitle": "2017 - Present",
+            "description": "Started coding at a young age, unraveling the logic of languages and frameworks through reverse engineering and hands-on experimentation.",
+            "badges": ["Python", "C#", "JavaScript", "Node.js"]
+          },
+          {
+            "title": "Desktop & IoT Explorer",
+            "subtitle": "Real-World Applications & Smart Devices",
+            "description": "Dove into desktop and IoT development, delivering functional and elegant solutions for real-life challenges.",
+            "badges": ["Minecraft Launcher", "Smart Home System", "Arduino", "ESP8266"]
+          },
+          {
+            "title": "Frontend & UI/UX Designer",
+            "subtitle": "React & Modern UI Libraries",
+            "description": "Crafting responsive, intuitive interfaces with polished animations, prioritizing both aesthetics and usability.",
+            "badges": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"]
+          }
+        ],
+        "experience": [
+          {
+            "title": "Vidzap Project",
+            "subtitle": "Full-Stack & CLI Innovation",
+            "description": "Engineered an advanced video downloader featuring automatic format selection, real-time Socket.IO status updates, and seamless FFmpeg processing.",
+            "badges": ["Node.js", "Express", "FFmpeg", "Socket.IO"]
+          },
+          {
+            "title": "Advanced Authentication System",
+            "subtitle": "Secure Backend Architecture",
+            "description": "Built a modular, JWT-based auth system with multi-device session tracking, Redis integration, and complete token lifecycle management.",
+            "badges": ["JWT", "Redis", "BullMQ", "Security"]
+          }
+        ]
+      }
+    }
+  },
+  "resources": {
+    "books": {
+      "title": "Books",
+      "mfr": "My Favorite Read"
+    }
+  },
+  "test": {
+    "title": "Test",
+    "description": "vorlaxen test page"
+  }
+}
